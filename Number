@@ -13,7 +13,8 @@ public class Main {
 
         if (l !=6) {
             System.out.println("Число должно состоять из 6 символов!!!");
-        } else {
+        } 
+        else {
             System.out.println("Результат: ");
             for (int i = 0; i < l; i++)
                 System.out.println(s.charAt(i));
