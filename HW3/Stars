@@ -1,0 +1,23 @@
+package hw3;
+
+import java.util.Scanner;
+
+public class Stars {
+    public static void main(String[] args) {
+        System.out.println("Введите высоту рисунка:");
+        Scanner scanner = new Scanner(System.in);
+        int visota = scanner.nextInt();
+        for (int i = 1; i < visota; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = visota; i  > 0; i--) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
